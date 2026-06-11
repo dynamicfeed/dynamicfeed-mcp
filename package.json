@@ -1,0 +1,40 @@
+{
+  "name": "dynamicfeed-mcp",
+  "version": "1.0.1",
+  "description": "Local stdio MCP server for Dynamic Feed \u2014 live data AI models lack (prices, weather, CVEs & exploited vulns, internet outages, global disasters, satellites/space, world news + more). Bridges any MCP client to dynamicfeed.ai; works through firewalls that block remote SSE.",
+  "type": "module",
+  "bin": {
+    "dynamicfeed-mcp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "context-protocol",
+    "dynamic-feed",
+    "ai",
+    "llm",
+    "live-data",
+    "gemini-mcp"
+  ],
+  "license": "MIT",
+  "homepage": "https://dynamicfeed.ai",
+  "author": "Dynamic Feed (https://dynamicfeed.ai)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dynamicfeed/dynamicfeed-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dynamicfeed/dynamicfeed-mcp/issues"
+  }
+}
