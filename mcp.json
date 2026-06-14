@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "dynamicfeed": {
+      "url": "https://dynamicfeed.ai/mcp"
+    }
+  }
+}
