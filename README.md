@@ -1,21 +1,21 @@
 # dynamicfeed-mcp
 
-Local **stdio MCP server** for [Dynamic Feed](https://dynamicfeed.ai) — the fresh, live data AI models
+Local **stdio MCP server** for [Dynamic Feed](https://dynamicfeed.ai): the fresh, live data AI models
 don't have on their own: weather, software versions, CVEs **& actively-exploited vulns**, sanctions,
 global disasters, earthquakes/wildfires/drought, satellites & space weather, flights, AI models
-and more — **38 tools across 14 verticals**, all commercially-licensed & keyless.
+and more. **91 tools across 19 verticals**, all commercially-licensed & keyless.
 
 This bridge speaks MCP over **stdio** to your local client and proxies to the remote Dynamic Feed endpoint
-over ordinary outbound HTTPS — so it works through corporate firewalls/VPNs that block remote SSE streams,
+over ordinary outbound HTTPS, so it works through corporate firewalls/VPNs that block remote SSE streams,
 and it always exposes whatever tools the live server has (nothing hard-coded to drift).
 
-> Prefer a remote URL? You don't even need this package — point any MCP client at
+> Prefer a remote URL? You don't even need this package. Point any MCP client at
 > `https://dynamicfeed.ai/mcp` (it auto-detects modern Streamable HTTP **and** legacy SSE). This runner is
 > for clients that only accept a local `command`, or networks that block remote streaming.
 
 ## Use it
 
-**Claude Desktop / Cursor / Windsurf** — add to your MCP config:
+**Claude Desktop / Cursor / Windsurf**: add to your MCP config:
 
 ```json
 {
@@ -28,7 +28,7 @@ and it always exposes whatever tools the live server has (nothing hard-coded to 
 }
 ```
 
-That's it — no API key required (the MCP tools are keyless). Restart your client and the Dynamic Feed tools
+That's it, no API key required (the MCP tools are keyless). Restart your client and the Dynamic Feed tools
 appear.
 
 ## Options (env vars)
