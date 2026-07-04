@@ -1,4 +1,6 @@
 {
   "$schema": "https://glama.ai/mcp/schemas/server.json",
-  "maintainers": ["Liquid00000000000"]
+  "maintainers": [
+    "Dynamicfeedai"
+  ]
 }
